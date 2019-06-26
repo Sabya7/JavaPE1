@@ -1,0 +1,43 @@
+package com.stackroute.pe1;
+
+import java.util.Scanner;
+
+public class PalindromeCheck {
+    public static void main(String[] args) {
+        System.out.println("enter the number\n");
+        Scanner ss = new Scanner(System.in);
+        int input = ss.nextInt();
+        System.out.println(palindrome(input));
+    }
+         static boolean palindrome(int number)
+        {
+            StringBuffer string = new StringBuffer(Integer.toString(number));
+            String a = new String(string);
+            String b = new String(string.reverse());
+            if (a.equals(b)) {
+                System.out.println("is a palindrome\n");
+            } else
+                System.out.println("is not a palindrome");
+
+            int digitPosition = 0;
+            String resultant = string.toString();
+            number = Integer.parseInt(resultant);
+            int sum = 0;
+            while (number > 0) {
+                digitPosition++;
+                if (digitPosition % 2 == 0) {
+                    sum += number % 10;
+                }
+                number = number / 10;
+            }
+            System.out.println(sum);
+            if (sum < 25) {
+                System.out.println("sum of even nos. is less than 25");
+            } else {
+                System.out.println("sum of even nos. is greater than 25");
+
+            }
+            return a.equals(b);
+        }
+    }
+
