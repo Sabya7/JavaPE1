@@ -1,5 +1,8 @@
 package com.stackroute.pe1;
-
+//a program which accepts a number as input and check whether the given number is
+//palindrome or not If it is a palindrome then
+//a. Add all the even numbers and check whether the sum is more than 25.
+//b. Print success and failure messages for all 3 conditions
 import java.util.Scanner;
 
 public class PalindromeCheck {

@@ -1,5 +1,7 @@
 package com.stackroute.pe1;
-
+//a program for the following condition:
+//Given 2 inputs , where input1 is string and input 2 is integer value, the last n characters should
+//repeat n number of times in the output String.
 import java.util.Scanner;
 
 public class RepeatLastAnyCharacter {

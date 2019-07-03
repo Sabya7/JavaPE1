@@ -1,5 +1,5 @@
 package com.stackroute.pe1;
-
+//a program to reverse any string without using String Buffer.
 import java.util.Scanner;
 
 public class StringReverse {

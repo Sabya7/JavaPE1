@@ -1,5 +1,8 @@
 package com.stackroute.pe1;
-
+//a program which accepts a number as input from user and perform the following:
+//a. sort the number in non-increasing order
+//b. after sorting sum all the even numbers, the sum should be greater than 15 .
+//c. if sum is more than 15,then print output as true or false.
 import java.util.Arrays;
 import java.util.Scanner;
 
